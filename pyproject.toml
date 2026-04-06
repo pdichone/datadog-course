@@ -1,0 +1,17 @@
+[project]
+name = "datadog-course"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.5.2",
+    "ddtrace[anthropic,openai]>=4.5.0",
+    "langchain>=1.2.10",
+    "langchain-chroma>=1.1.0",
+    "langchain-core>=1.2.17",
+    "langchain-openai>=1.1.10",
+    "openai>=2.24.0",
+    "python-dotenv>=1.2.2",
+    "sentence-transformers>=5.2.3",
+]
